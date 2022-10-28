@@ -34,7 +34,7 @@ static const char *DBG_TBL_PATH    = "DebugData/Font/nvn_font_jis1_tbl.bin";
 
 sead::TextWriter *gTextWriter;
 
-void graNoclipCode(al::LiveActor *player) {
+void graNoClipCode(al::LiveActor *player) {
 
     static bool isFirst = true;
 
@@ -89,7 +89,7 @@ void controlLol(StageScene* scene) {
     }
 
     if(isNoclip) {
-        graNoclipCode(actor);
+        graNoClipCode(actor);
     }
 }
 
